@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/2ab5df92-0382-49ac-afea-7e26ee5e3e1e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 82104a18-69ef-4a91-88a2-fcd056f2ff09
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 82104a18-69ef-4a91-88a2-fcd056f2ff09
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f43254d8-7ea4-419a-bd6c-b3f32ac9ec57
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f43254d8-7ea4-419a-bd6c-b3f32ac9ec57>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: eee3cc56-6dcc-49ba-9915-0483e144d4f3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anonKey: false
+    projectUrl: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - projectUrl: "[PEGAR PROJECT URL]"
+      anonKey: "[PEGAR ANON KEY]"
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string projectUrl = "[PEGAR PROJECT URL]" {"label":"Project URL"}'
+    - '// @input string anonKey = "[PEGAR ANON KEY]" {"label":"Anon Key"}'

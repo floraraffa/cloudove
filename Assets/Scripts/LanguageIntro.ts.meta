@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/9dbbdf0f-273c-407a-96e6-95a4a9196ad0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 941caf8c-618b-446c-bdc1-34cec1887bd7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 941caf8c-618b-446c-bdc1-34cec1887bd7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 13cc6afd-c449-40f2-abd4-3a1506fd8600
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/13cc6afd-c449-40f2-abd4-3a1506fd8600>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 586b7bc3-23c3-483a-8e2a-9ea196e1c2d1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonsContainer: false
+    cardBackObj: false
+    chosenStampObj: false
+    landmarksContainer: false
+    messengerRoot: false
+    stampsContainer: false
+    titleObj: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonsContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      messengerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stampsContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      landmarksContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      chosenStampObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardBackObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      titleObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject buttonsContainer
+    - // @input SceneObject messengerRoot
+    - // @input SceneObject stampsContainer
+    - // @input SceneObject landmarksContainer
+    - // @input SceneObject chosenStampObj
+    - // @input SceneObject cardBackObj
+    - // @input SceneObject titleObj

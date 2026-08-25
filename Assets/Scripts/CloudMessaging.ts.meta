@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/94f2774f-4afe-4eb4-a115-fdd1468af41e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 960007bf-6d25-454a-a8fd-e7902d3b3156
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 960007bf-6d25-454a-a8fd-e7902d3b3156
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f71f81b0-edc3-418b-8e05-60bc3fc3230a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f71f81b0-edc3-418b-8e05-60bc3fc3230a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a2da35c9-8d5a-4259-819d-824e32ba46ed
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    supabaseProject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - supabaseProject: !<reference.SupabaseProject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.SupabaseProject supabaseProject

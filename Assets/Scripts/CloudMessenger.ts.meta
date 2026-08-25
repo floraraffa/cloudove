@@ -1,0 +1,91 @@
+- !<AssetImportMetadata/bb8013ab-7a34-4fe1-85ba-d35c102a5824>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0cebf67b-d648-4c03-a16e-68f3a33482f7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0cebf67b-d648-4c03-a16e-68f3a33482f7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> be9c35a0-9782-470c-acc2-56b2132da0f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/be9c35a0-9782-470c-acc2-56b2132da0f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 104e87a7-7038-4783-bd3d-a2c304ddf098
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    actionsContainer: false
+    bitmojiObject: false
+    cameraObject: false
+    cloudImage: false
+    cloudVisual: false
+    flightDuration: false
+    interactable: false
+    landmarksContainer: false
+    noteObject: false
+    notifCloud: false
+    readingDuration: false
+    scrollObject: false
+    texClosed: false
+    texListen: false
+    texOpen: false
+    voiceAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - interactable: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      voiceAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cloudVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      noteObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      actionsContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bitmojiObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      scrollObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      notifCloud: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      landmarksContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cloudImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      texClosed: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texOpen: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texListen: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      flightDuration: !<float> 3.000000
+      readingDuration: !<float> 3.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 interactable
+    - // @input Component.AudioComponent voiceAudio
+    - // @input SceneObject cameraObject
+    - // @input SceneObject cloudVisual
+    - // @input SceneObject noteObject
+    - // @input SceneObject actionsContainer
+    - // @input SceneObject bitmojiObject
+    - // @input SceneObject scrollObject
+    - // @input SceneObject notifCloud
+    - // @input SceneObject landmarksContainer
+    - // @input Component.Image cloudImage
+    - // @input Asset.Texture texClosed
+    - // @input Asset.Texture texOpen
+    - // @input Asset.Texture texListen
+    - // @input float flightDuration = 3
+    - // @input float readingDuration = 3
