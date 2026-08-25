@@ -9,6 +9,7 @@ import { Interactable } from "SpectaclesInteractionKit.lspkg/Components/Interact
 import { OpenAI } from "RemoteServiceGateway.lspkg/HostedExternal/OpenAI";
 import { getLang, fmt } from "./Languages";
 import { CloudMessaging } from "./CloudMessaging";
+import { BackgroundMusic } from "./BackgroundMusic";
 
 @component
 export class CloudMessenger extends BaseScriptComponent {
@@ -449,6 +450,7 @@ export class CloudMessenger extends BaseScriptComponent {
   }
 
   private playPending() {
+    BackgroundMusic.duck(true);
     this.voiceAudio.audioTrack = this.pendingTrack;
     this.voiceAudio.play(1);
     this.flapMode = "audio";
@@ -457,6 +459,7 @@ export class CloudMessenger extends BaseScriptComponent {
   }
 
   private speakFallback() {
+    BackgroundMusic.duck(true);
     this.flapMode = "timer";
     this.flapDuration = this.readingDuration;
     this.state = "speaking";
@@ -1260,6 +1263,7 @@ export class CloudMessenger extends BaseScriptComponent {
         }
       }
       if (done) {
+        BackgroundMusic.duck(false);
         if (this.cloudImage) {
           this.cloudImage.mainPass.baseTex = this.texClosed;
         }

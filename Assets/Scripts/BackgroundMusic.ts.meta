@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/b07b665d-7486-4d81-af8d-d0fa3718c159>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 38d7e5ae-3889-4845-89de-f1ac37c3adfc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 38d7e5ae-3889-4845-89de-f1ac37c3adfc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b5ea6992-e56f-40cb-9deb-dbf613d66e69
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b5ea6992-e56f-40cb-9deb-dbf613d66e69>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 012fef77-3009-47e1-9400-6f743f1a5d7f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonRoot: false
+    musicTrack: false
+    texOff: false
+    texOn: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - musicTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      buttonRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      texOn: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texOff: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.AudioTrackAsset musicTrack
+    - // @input SceneObject buttonRoot
+    - // @input Asset.Texture texOn
+    - // @input Asset.Texture texOff
