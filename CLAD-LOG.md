@@ -38,9 +38,9 @@ Remote Service Gateway and Snap Cloud credentials are configured inside the proj
 
 **Representative prompts:** “Instead of a scroll I want a postcard, like holiday cards — image on one side, message on the other.” … “Put a generic postcard image by place — for example Berlin's TV tower in geometric design.” … “Add the location ribbon to the postcard.” … “When I press Close the message must be deleted and never appear again — I already read it.”
 
-- Two-sided postcard with a pre-mirrored back so the 180° flip reads correctly; front shows the attached photo or an AI-generated geometric travel poster of the sender's language homeland, with a place ribbon; back carries the translated message, signature, and a matching stamp.
+- Two-sided postcard with a pre-mirrored back so the 180° flip reads correctly; front shows an AI-generated geometric travel poster of the sender's language homeland, with a place ribbon; back carries the translated message, signature, and a matching stamp.
 - Implemented the view-once contract: opening marks the message read; Reply and Close both delete it permanently.
-- Photo attachments captured with CameraModule travel as base64 JPEG; the Foto button hides itself automatically where the camera is unavailable (preview).
+- A photo-attachment path (CameraModule capture traveling as base64 JPEG) was prototyped, but the shipped experience keeps the travel-poster fronts — the camera flow did not make the final cut.
 
 ## The notification that refused to be tapped — and the button pattern
 
