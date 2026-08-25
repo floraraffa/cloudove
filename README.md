@@ -1,6 +1,8 @@
-# Cloudove ☁️💌
+<p align="center">
+  <img src="logo.png" alt="Cloudove" width="420">
+</p>
 
-**Voice postcards, carried by a cloud — across any language.**
+<p align="center"><strong>Voice postcards, carried by a cloud — across any language.</strong></p>
 
 Cloudove is a spatial, asynchronous messaging experience for Snap Spectacles, built in Lens Studio 5.23 for the **CLAD Summer Hackathon — Week 3: Connect**.
 
