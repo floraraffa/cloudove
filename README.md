@@ -27,9 +27,9 @@ Every message is **view-once**: reply or close it, and it is gone forever — li
 - **12 languages end to end**: Español, English, Français, Português, Italiano, Deutsch, 日本語, 한국어, 中文, Русский, العربية, हिन्दी — every UI string, prompt, stamp, and travel poster
 - Original kawaii cloud artwork by Florencia Raffa
 
-### Credentials note
+### Backend
 
-The Remote Service Gateway and Snap Cloud credentials are bundled in this repository **intentionally**: this is a hackathon submission where Snap sponsors API usage and Snap Cloud hosting, and the project owner explicitly authorized including them so evaluators can open the project and run the full experience directly. Database schema lives in [snap-cloud-setup.sql](snap-cloud-setup.sql).
+The messaging backend runs on **Snap Cloud (managed Supabase)**: user accounts, private addressing, and the view-once message queue. The database schema lives in [snap-cloud-setup.sql](snap-cloud-setup.sql).
 
 ## Running it
 

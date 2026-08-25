@@ -7,7 +7,7 @@ Development log and representative prompt transcript for the AI-assisted creatio
 - **Florencia:** concept, product decisions, kawaii cloud artwork and logo, UX direction, all acceptance testing on preview and Spectacles, and every course correction below.
 - **Claude:** Lens Studio scene construction and inspection, TypeScript implementation, SIK interaction wiring, ASR/TTS/translation integration, Snap Cloud (Supabase) schema and messaging layer, SVG UI asset generation, AI stamp/travel-poster generation, debugging from runtime logs, and repository preparation.
 
-Remote Service Gateway and Snap Cloud credentials are configured inside the project. For the hackathon repository, the project owner explicitly authorized bundling them so evaluators can run the submitted scene directly (Snap sponsors the API usage and Snap Cloud hosting for the contest).
+OpenAI runs through Snap's Remote Service Gateway, and the messaging backend uses Snap Cloud (managed Supabase), so the submitted scene runs directly in Lens Studio.
 
 ## Concept exploration — connecting people, not screens
 
