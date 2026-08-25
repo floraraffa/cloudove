@@ -27,15 +27,21 @@ Every message is **view-once**: reply or close it, and it is gone forever — li
 - **12 languages end to end**: Español, English, Français, Português, Italiano, Deutsch, 日本語, 한국어, 中文, Русский, العربية, हिन्दी — every UI string, prompt, stamp, and travel poster
 - Original kawaii cloud artwork by Florencia Raffa
 
-### Backend
+### Backend — bring your own Snap Cloud
 
-The messaging backend runs on **Snap Cloud (managed Supabase)**: user accounts, private addressing, and the view-once message queue. The database schema lives in [snap-cloud-setup.sql](snap-cloud-setup.sql).
+The messaging backend runs on **Snap Cloud (managed Supabase)**: user accounts, private addressing, and the view-once message queue. The database credentials are **not** included in this repository (they would expose users' emails and messages), so to run the full experience you connect your own free Snap Cloud project:
+
+1. In Lens Studio, open the **Supabase plugin**, sign in, and create (or pick) a Snap Cloud project.
+2. Use the plugin's **Import Credentials** to generate the `SupabaseProject` asset in `Assets/`.
+3. Assign that asset to the `Supabase Project` input of the **CloudMessaging** script in the scene.
+4. In the Supabase dashboard's SQL Editor, run [snap-cloud-setup.sql](snap-cloud-setup.sql) to create the `users` and `messages` tables.
 
 ## Running it
 
 1. Open `Flying Messages.esproj` in Lens Studio 5.23+.
-2. Press play in Preview, or send it to Spectacles.
-3. Pick a language, sign in with any email, and send a cloud to a friend (or to yourself with a second email).
+2. Connect your Snap Cloud project (see **Backend** above).
+3. Press play in Preview, or send it to Spectacles.
+4. Pick a language, sign in with any email, and send a cloud to a friend (or to yourself with a second email).
 
 ## Credits
 
