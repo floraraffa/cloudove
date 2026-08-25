@@ -42,7 +42,3 @@ Workspaces/**
 *.pem
 *.key
 spk_debug_key.pem
-
-# Snap Cloud credentials — each user connects their own project
-*.supabaseProject
-*.supabaseProject.meta
