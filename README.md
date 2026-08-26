@@ -4,7 +4,7 @@
 
 <p align="center"><strong>Voice postcards, carried by a cloud — across any language.</strong></p>
 
-Cloudove is a spatial, asynchronous messaging experience for Snap Spectacles, built in Lens Studio 5.23 for the **CLAD Summer Hackathon — Week 3: Connect**.
+Cloudove is a spatial, asynchronous messaging experience for Specs, built in Lens Studio 5.23 for the **CLAD Summer Hackathon — Week 3: Connect**.
 
 A kawaii messenger cloud flies to you, listens to your voice message (or lets you type it), and carries it to a friend anywhere in the world. When your friend opens the Lens, the cloud arrives with a tiny heart-cloud in tow, announces who wrote to them, and unfolds a **two-sided holiday postcard**: the front is a geometric travel poster of the sender's homeland with its place ribbon, and the back carries the message **translated into the receiver's language**, with a matching country stamp and signature, while the cloud reads it aloud in a natural voice.
 
